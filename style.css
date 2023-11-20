@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --text-white: hsla(0, 0%, 100%, 0.75);
+  --primary-white-all: hsl(0, 0%, 95%);
+}
+.attribution {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  max-width: 100%;
+  max-height: 100vh;
+  background-color: var(--primary-white-all);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.55rem;
+  padding: 1.9rem;
+}
+.card-1 {
+  background-color: var(--bright-orange);
+}
+.card-2 {
+  background-color: var(--dark-cyan);
+}
+.card-3 {
+  background-color: var(--very-dark-cyan);
+}
+.svg-img {
+  width: 25%;
+}
+.primary-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  color: var(--primary-white-all);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.normal-text {
+  font-size: 0.93rem;
+  color: var(--text-white);
+  line-height: 1.7;
+}
+.btn {
+  display: inline-block;
+  width: 70%;
+  padding: 0.8rem;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-size: 0.93rem;
+  font-weight: 400;
+  background-color: var(--primary-white-all);
+  margin-top: 2.5rem;
+}
+.btn-1 {
+  color: var(--bright-orange);
+}
+.btn-1:hover,
+.btn-1:focus,
+.btn-2:hover,
+.btn-2:focus,
+.btn-3:hover,
+.btn-3:focus {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 0 0 2px var(--primary-white-all);
+  color: var(--primary-white-all);
+}
+
+.btn-2 {
+  color: var(--dark-cyan);
+}
+.btn-3 {
+  color: var(--very-dark-cyan);
+}
+/* For Desktop */
+@media (max-width: 90em) {
+  .container {
+    overflow: hidden;
+    border-radius: 0.6rem;
+  }
+}
+/*  For Tablet & Mbile */
+@media (max-width: 34.3em) {
+  .container {
+    margin: 1.25rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .card {
+    gap: 1.4rem;
+  }
+  .svg-img {
+    width: 20%;
+  }
+  .btn {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
