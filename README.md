@@ -27,7 +27,7 @@ Active-State
 
 ### Links
 
-- Solution URL: [Add solution URL here](http://127.0.0.1:8080/index.html)
+- Solution URL: [Add solution URL here](https://github.com/SkAliya/4-Three-column-component.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -64,7 +64,7 @@ Active-State
 
 ## Author
 
-- Website - [Aliya Shaik](http://127.0.0.1:8080/index.html)
+- Website - [Aliya Shaik](https://github.com/SkAliya/4-Three-column-component.git)
 - Frontend Mentor - [@SkAliya](https://www.frontendmentor.io/profile/SkAliya)
 
 ## Acknowledgments
