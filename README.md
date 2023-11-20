@@ -19,7 +19,7 @@ This is the challenge of 3-column preview card component from FrontenMentor ,I h
 
 ### Screenshot
 
-![](./Screenshot 2023-11-20 093018.png)
+![](./Screenshot%2023-11-20%20093018.png)
 
 Active-State
 
